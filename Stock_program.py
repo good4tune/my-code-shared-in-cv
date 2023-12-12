@@ -13,7 +13,7 @@ from sendgrid.helpers.mail import Mail
 from alpha_vantage.timeseries import TimeSeries
 
 
-
+# To collect detected stock in a list called detect
 detect = []
 
 def calculation():
