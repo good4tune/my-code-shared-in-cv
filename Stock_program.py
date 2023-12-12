@@ -67,7 +67,7 @@ time = TimeSeries(key = 'XXXXXXXXXXXX4', output_format='pandas')
 
 
 
-for x in range(0, 210):
+for x in range(0, len(STOCKS)):
     try:
  
         data_50 = ts.data(symbol=STOCKS[x], function = 'EMA', interval='daily', time_period=50, series_type='close')
